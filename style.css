@@ -1,0 +1,1504 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image: url(Rectangle\ \(1\).png);
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+.rightDiv{
+    background-image: url(Rectangle\ \(2\).png);
+    width: 35%;
+    height: 600px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.apseDiv{
+    margin-bottom: 50px;
+    margin-left: -70px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.terev{
+    width: 65px;
+    height: 85px;
+}
+
+.apse{
+    width: 400px;
+    height: 400px;
+    animation: myDiv 4s infinite;
+}
+
+@keyframes myDiv{
+    0%{
+        transform: rotate(0deg);
+        transform: translate(25px, 10px);
+    }
+    25%{
+        transform: rotate(-35deg);
+    }
+    50%{
+        transform: rotate(0deg);
+        transform: translate(-2.1rem, -2ex);
+    }
+    75%{
+        transform: rotate(35deg);
+    }
+    100%{
+        transform: rotate(0deg);
+        transform: translate(25px, 10px);
+    }
+}
+
+.logoDiv{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+
+.ulDiv{
+    height: 120px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin-left: -100px;
+}
+
+.headerUl li{
+    list-style-type: none;
+    font-size: 16px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.headerUl li a{
+    text-decoration: none;
+    color: black;
+}
+
+.headerUl li:hover{
+    transform: scale(1.2);
+}
+
+.headerUl{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.headerDiv{
+    width: 65%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.title{
+    width: 650px;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.title :nth-child(1){
+    margin-bottom: 10px;
+    height: 90px;
+}
+
+.title :nth-child(2){
+    height: 70px;
+}
+
+.title :nth-child(3){
+    height: 60px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+}
+
+.headerDiv button{
+    background-color: #FFE001;
+    width: 170px;
+    height: 40px;
+    font-size: 17px;
+    transition: all .5s;
+}
+
+.headerDiv button:hover{
+    background-color: #E8E6A9;
+    width: 180px;
+    height: 50px;
+    font-size: 19px;
+}
+
+.tomatoDiv{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tomatoDiv :nth-child(1){
+    margin-top: -85px;
+    margin-left: -140px;
+    animation: tomatoDiv 4s infinite;
+}
+
+@keyframes tomatoDiv{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(-35deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(35deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+.tomatoDiv :nth-child(2){
+    height: 60px;
+    margin-top: -25px;
+}
+
+.burger{
+    display: none;
+    position: fixed;
+    z-index: 1000;
+}
+ 
+.vernagirDiv{
+    margin-top: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vernagirDiv p{
+    width: 1000px;
+    text-align: center;
+}
+
+.rectangle{
+    width: 100%;
+    margin-top: 160px;
+}
+
+.utest button{
+    background-color: #FFE001;
+    width: 170px;
+    height: 40px;
+    font-size: 17px;
+    transition: all .5s;
+}
+
+.utest button:hover{
+    background-color: #E8E6A9;
+    transform: scale(1.2);
+    font-size: 19px;
+}
+
+.utest p{
+    width: 300px;
+    text-align: center;
+}
+
+.utest{
+    height: 440px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.utest :nth-child(1){
+    width: 270px;
+    height: 270px;
+    animation: utestDiv 4s infinite;
+}
+
+@keyframes utestDiv{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(-20deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(20deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+.utestDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -215px;
+}
+
+.rectangle2{
+    display: none;
+    height: 80px;
+}
+
+.sec2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.discover{
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.discover p{
+    width: 820px;
+    text-align: center;
+}
+
+.pizza{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.pizza :nth-child(1){
+    width: 30%;
+    height: 320px;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.5;
+    transition:all .5s;
+}
+
+.pizza :nth-child(2){
+    width: 40%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    transition:all 1s;
+}
+
+.pizza :nth-child(3){
+    width: 30%;
+    height: 320px;
+    object-fit: cover;
+    object-position: center;
+    opacity: 0.5;
+    transition:all .5s;
+}
+
+.ket{
+    margin-top: 20px;
+}
+
+.imgSec{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.imageDiv{
+    width: 1250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.body1{
+    width: 600px;
+    display: flex;
+    position: relative;
+}
+
+.bigImg{
+    width: 600px;
+    height: 400px;
+}
+
+.bodyText2{
+    position: absolute;
+    height: 150px;
+    left: 50px;
+    top: 50px;
+}
+
+.body2{
+    width: 600px;
+    display: flex;
+    position: relative;
+}
+
+.body2 :nth-child(1){
+    width: 600px;
+    height: 180px;
+}
+
+.body2 :nth-child(2){
+    position: absolute;
+    height: 100px;
+    left: 30px;
+    top: 30px;
+}
+
+.body3{
+    width: 600px;
+    display: flex;
+    position: relative;
+}
+
+.body3 :nth-child(1){
+    width: 600px;
+    height: 180px;
+}
+
+.body3 :nth-child(2){
+    position: absolute;
+    height: 55px;
+    left: 30px;
+    top: 30px;
+}
+
+.inps1{
+    height: 150px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inps1 :nth-child(1){
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    border: black 1px solid;
+    padding-left: 5px;
+}
+
+.inps1 :nth-child(2){
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    border: black 1px solid; 
+    padding-left: 5px;
+}
+
+.inps1 :nth-child(3){
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    border: black 1px solid;
+    padding-left: 5px;
+}
+
+.inps2{
+    height: 150px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inps2 :nth-child(1){
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    border: black 1px solid;
+    padding-left: 5px;
+}
+
+.inps2 :nth-child(2){
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    border: black 1px solid;
+    padding-left: 5px;
+}
+
+.inps2 :nth-child(3){
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    border: black 1px solid;
+    background-color: #FFE001;
+}
+
+.verjinSec{
+    margin-top: 100px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.verjinSec form{
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+}
+
+.verjinDiv{
+    display: flex;
+    flex-direction: column;
+    height: 80px;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+.verjinDiv :nth-child(1){
+    height: 20px;
+    width: 200px;
+}
+
+footer{
+    background-image: url(BG\ Image.png);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    width: 100%;
+    height: 600px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footerLogo{
+    filter: invert(100%);
+    width: 400px;
+    margin-left:70px ;
+}
+
+.footerDiv1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.bodyText3{
+    margin-left: 70px;
+}
+
+.footerDiv2{
+    margin-right:100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.footerDiv3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerButton{
+    transition: all .5s;
+}
+
+
+.footerButton:hover{
+    background-color: #E8E6A9;
+}
+
+.company{
+    margin-left: 70px;
+    height: 20px;
+}
+
+.smallDiv1{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.smallDiv1 :nth-child(2){
+    height: 22px;
+}
+
+.smallDiv2{
+    width: 280px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.smallDiv3{
+    margin-right: 100px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.smallDiv3 img{
+    transition: all .5s;
+}
+
+.smallDiv3 img:hover{
+    transform: scale(1.2);
+}
+
+.closeIcon {
+    display: none;
+    width: 50px;
+    height: 45px;
+    top: 40px;
+    right: 15px;
+    position: absolute;
+    z-index: 100;
+}
+
+.headerUl2{
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    transform: translateX(200%);
+    transition: transform 0.5s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background-color: #FFE001;
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 100px;
+    box-shadow: 0px 5px 10px black;
+}
+
+.headerUl2 li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.showMenu {
+    transform: translateX(100%);
+}
+
+.closeIcon{
+    display: none;
+}
+
+@media only screen and (max-width:1300px){
+
+    .imageDiv{
+        width: 1050px;
+    }
+    
+    .body1{
+        width: 500px;
+    }
+
+    .bigImg{
+        width: 500px;
+        height: 350px;
+    }
+
+    .bodyText2{
+        height: 130px;
+        top: 30px;
+        left: 30px;
+    }
+
+    .body2{
+        width: 500px;
+    }
+
+    .body2 :nth-child(1){
+        width: 500px;
+        height: 160px;
+    }
+
+    .body2 :nth-child(2){
+        height: 75px;
+    }
+
+    .body3{
+        width: 500px;
+    }
+
+    .body3 :nth-child(1){
+        width: 500px;
+        height: 160px;
+    }
+
+    .body3 :nth-child(2){
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    .apse{
+        width: 300px;
+        height: 300px;
+    }
+
+    .terev{
+        margin-bottom: -25px;
+        margin-right: -25px;
+    }
+
+    .apseDiv{
+        margin-bottom: 100px;
+    }
+
+    .ulDiv{
+        margin-left: -170px;
+    }
+
+    .title{
+        width: 500px;
+    }
+
+    .title :nth-child(2){
+        height: 50px;
+    }
+
+    .subtitle{
+        height: 50px;
+    }
+
+    .bodyText{
+        height: 15px;
+    }
+
+    .shape{
+        width: 400px;
+    }
+
+    .utest :nth-child(1){
+        width: 200px;
+        height: 200px;
+    }
+
+    .utestDiv{
+        margin-top: -145px;
+    }
+
+    .utest{
+        height: 350px;
+    }
+
+    .rectangle{
+        height: 80px;
+    }
+
+    .pizza :nth-child(1){
+        height: 280px;
+    }
+    
+    .pizza :nth-child(2){
+        height: 350px;
+    }
+    
+    .pizza :nth-child(3){
+        height: 280px;
+    }
+
+    .footerDiv2{
+        height: 70px;
+    }
+
+    .bodyText3{
+        height: 70px;
+    }
+
+    .smallDiv1{
+        width: 400px;
+    }
+
+    .smallDiv1 :nth-child(1){
+        height: 25px;
+    }
+
+    .smallDiv1 :nth-child(2){
+        height: 20px;
+    }
+
+    .smallDiv2{
+        width: 240px;
+    }
+
+    .smallDiv2 :nth-child(1){
+        height: 15px;
+    }
+
+    .smallDiv2 :nth-child(2){
+        height: 15px;
+    }
+}
+
+@media only screen and (max-width:1100px){ 
+    .rectangle{
+        display: none;
+    }
+
+    .rectangle2{
+        display: block;
+        width: 100%;
+    }
+
+    .utest{
+        margin-top: -300px;
+    }
+
+    .utestDiv{
+        flex-direction: column;
+        height: 1200px;
+        margin-top: 150px;
+        align-items: center;
+    }
+
+    .vernagirDiv{
+        height: 120px;
+    }
+
+    .vernagirDiv p{
+        width: 700px;
+    }
+
+    .pizza :nth-child(1){
+        height: 230px;
+    }
+    
+    .pizza :nth-child(2){
+        height: 300px;
+    }
+    
+    .pizza :nth-child(3){
+        height: 230px;
+    }
+    
+    .imageDiv{
+        width: 850px;
+    }
+    
+    .body1{
+        width: 400px;
+    }
+
+    .bigImg{
+        width: 400px;
+        height: 275px;
+    }
+
+    .bodyText2{
+        height: 110px;
+    }
+
+    .body2{
+        width: 400px;
+    }
+
+    .body2 :nth-child(1){
+        width: 400px;
+        height: 130px;
+    }
+
+    .body2 :nth-child(2){
+        height: 60px;
+    }
+
+    .body3{
+        width: 400px;
+    }
+
+    .body3 :nth-child(1){
+        width: 400px;
+        height: 130px;
+    }
+
+    .body3 :nth-child(2){
+        height: 30px;
+    }
+
+    .footerDiv1{
+        flex-direction: column;
+        justify-content: space-between;
+        height: 200px;
+    }
+
+    .footerDiv2{
+        margin-right: 0px;
+        margin-left:70px ;
+    }
+
+    .bodyText3{
+        height: 100px;
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    .ulDiv{
+        margin-left: -220px;
+    }
+
+    .apse{
+        width: 230px;
+        height: 230px;
+    }
+
+    @keyframes myDiv{
+        0%{
+            transform: rotate(0deg);
+            transform: translate(15px, 10px);
+        }
+        25%{
+            transform: rotate(-35deg);
+        }
+        50%{
+            transform: rotate(0deg);
+            transform: translate(-1.5rem, -1.4ex);
+        }
+        75%{
+            transform: rotate(35deg);
+        }
+        100%{
+            transform: rotate(0deg);
+            transform: translate(25px, 10px);
+        }
+    }
+
+    .terev{
+        margin-bottom: -55px;
+        margin-right: -55px;
+    }
+
+    .apseDiv{
+        margin-bottom: 150px;
+    }
+}
+
+@media only screen and (max-width:900px){
+    .apseDiv{
+        display: none;
+    }
+    
+    .ulDiv{
+        margin-left: -240px;
+    }
+
+    .headerDiv{
+        width: 100%;
+    }
+
+    .tomatoDiv{
+        width: 100%;
+    }
+
+    .tomatoDiv :nth-child(2){
+        position: absolute;
+        z-index: 2;
+        right: 15px;
+    }
+
+    .vernagirDiv p{
+        width: 400px;
+    }
+
+    .vernagirDiv{
+        height: 150px;
+    }
+
+    .pizza :nth-child(1){
+        height: 200px;
+    }
+    
+    .pizza :nth-child(2){
+        height: 270px;
+    }
+    
+    .pizza :nth-child(3){
+        height: 200px;
+    }
+
+    .discover p{
+        width: 600px;
+    }
+
+    .imageDiv{
+        width: 650px;
+    }
+    
+    .body1{
+        width: 300px;
+    }
+
+    .bigImg{
+        width: 300px;
+        height: 200px;
+    }
+
+    .bodyText2{
+        height: 90px;
+    }
+
+    .body2{
+        width: 300px;
+    }
+
+    .body2 :nth-child(1){
+        width: 300px;
+        height: 90px;
+    }
+
+    .body2 :nth-child(2){
+        height: 60px;
+    }
+
+    .body3{
+        width: 300px;
+    }
+
+    .body3 :nth-child(1){
+        width: 300px;
+        height: 90px;
+    }
+
+    .body3 :nth-child(2){
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .burger{
+        display: block;
+        width: 50px;
+        height: 45px;
+        top: 40px;
+        right: 20px;
+        z-index: 100;
+    }
+
+    .closeIcon{
+        position: fixed;
+        width: 80px;
+        height: 80px;
+        top: 20px;
+        right: 5px;
+        z-index: 100;
+    }
+
+    .logo{
+        position: fixed;
+    }
+
+
+    .ulDiv{
+        display: none;
+    }
+
+    .rightDiv{
+        display: none;
+    }
+    
+    .pizza :nth-child(1){
+        height: 170px;
+    }
+    
+    .pizza :nth-child(2){
+        height: 240px;
+    }
+    
+    .pizza :nth-child(3){
+        height: 170px;
+    }
+
+    .footerDiv3{
+        height: 70px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+
+    .smallDiv3{
+        margin-right: 0px;
+        margin-left: 70px;
+    }
+}
+
+@media only screen and (max-width:700px){
+    .tomatoDiv :nth-child(1){
+        margin-top: -60px;
+        margin-left: -140px;
+        width: 250px;
+        height: 200px;
+    }
+
+    .title{
+        width: 450px;
+    }
+
+    .pizza :nth-child(1){
+        height: 140px;
+    }
+    
+    .pizza :nth-child(2){
+        height: 200px;
+    }
+    
+    .pizza :nth-child(3){
+        height: 140px;
+    }
+
+    .discover{
+        height: 180px;
+    }
+    
+    .discover p{
+        width: 400px;
+    }
+
+    .imageDiv{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        height: 850px;
+    }
+
+    .imgDiv{
+        height: 450px;
+        align-items: center;
+    }
+    
+    .body1{
+        width: 500px;
+    }
+
+    .bigImg{
+        width: 500px;
+        height: 350px;
+    }
+
+    .body2{
+        width: 500px;
+    }
+
+    .body2 :nth-child(1){
+        width: 500px;
+        height: 200px;
+    }
+
+    .body3{
+        width: 500px;
+    }
+
+    .body3 :nth-child(1){
+        width: 500px;
+        height: 200px;
+    }
+
+    .verjinDiv :nth-child(2){
+        height: 35px;
+    }
+
+    .verjinSec form{
+        width: 450px;
+    }
+
+    .inps1 :nth-child(1){
+        width: 200px;
+        height: 40px;
+    }
+
+    .inps1 :nth-child(2){
+        width: 200px;
+        height: 40px;
+    }
+
+    .inps1 :nth-child(3){
+        width: 200px;
+        height: 40px;
+    }
+    
+    .inps2 :nth-child(1){
+        width: 200px;
+        height: 40px;
+    }
+
+    .inps2 :nth-child(2){
+        width: 200px;
+        height: 40px;
+    }
+
+    .inps2 :nth-child(3){
+        width: 200px;
+        height: 40px;
+    }
+
+    footer{
+        align-items: center;
+    }
+
+    .footerLogo{
+        margin: 0;
+    }
+    
+    .footerDiv1{
+        align-items: center;
+    }
+
+    .bodyText3{
+        margin: 0;
+    }
+
+    .footerDiv2{
+        margin: 0;
+    }
+
+    .company{
+        margin: 0;
+    }
+
+    .footerDiv3{
+        align-items: center;
+    }
+
+    .smallDiv3{
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .pizza :nth-child(1){
+        display: none;
+    }
+    
+    .pizza :nth-child(2){
+        height: 400px;
+        width: 100%;
+    }
+    
+    .pizza :nth-child(3){
+        display: none;
+    }
+
+    .imageDiv{
+        width: 100%;
+        height: 600px;
+    }
+
+    .imgDiv{
+        height: 350px;
+    }
+    
+    .body1{
+        width: 350px;
+    }
+
+    .bigImg{
+        width: 350px;
+        height: 200px;
+    }
+
+    .body2{
+        width: 350px;
+    }
+
+    .body2 :nth-child(1){
+        width: 350px;
+        height: 150px;
+    }
+
+    .body3{
+        width: 350px;
+    }
+
+    .body3 :nth-child(1){
+        width: 350px;
+        height: 150px;
+    }
+
+    .bodyText3{
+        width: 400px;
+        height: 80px;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .title{
+        width: 300px;
+    }
+    
+    .title :nth-child(1){
+        height: 70px;
+        margin-bottom: 45px;
+    }
+
+    .title :nth-child(2){
+        height: 35px;
+    }
+    
+    .title :nth-child(3){
+        height: 50px;
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+
+    .subtitle{
+        height: 38px;
+    }
+
+    .bodyText{
+        height: 11px;
+    }
+
+    .shape{
+        width: 290px;
+    }
+
+    .tomatoDiv :nth-child(1){
+        margin-top: -20px;
+        margin-left: -140px;
+        width: 200px;
+        height: 170px;
+    }
+
+    .tomatoDiv :nth-child(2) {
+        height: 50px;
+        margin-top: -5px;
+    }
+
+    .logoDiv{
+        width: 250px;
+        height: 100px;
+    }
+
+    .logo{
+        height: 50px;
+    }
+
+    .burger{
+        width: 45px;
+        height: 40px;
+    }
+
+    .vernagirDiv img{
+        height: 22px;
+    }
+
+    .vernagirDiv{
+        height: 170px;
+    }
+
+    .vernagirDiv p{
+        width: 300px;
+    }
+
+    .pizza :nth-child(2){
+        height: 350px;
+    }
+
+    .discover :nth-child(2){
+        height: 25px;
+    }
+
+    .discover p{
+        width: 300px;
+    }
+
+    .verjinDiv :nth-child(2){
+        height: 25px;
+    }
+
+    .verjinSec{
+        height: 450px;
+    }
+
+    .verjinSec form{
+        width: 100%;
+        height: 311px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .inps1 :nth-child(1){
+        width: 200px;
+        height: 40px;
+    }
+
+    .inps1 :nth-child(2){
+        width: 200px;
+        height: 40px;
+    }
+
+    .inps1 :nth-child(3){
+        width: 200px;
+        height: 40px;
+    }
+    
+    .inps2 :nth-child(1){
+        width: 200px;
+        height: 40px;
+    }
+
+    .inps2 :nth-child(2){
+        width: 200px;
+        height: 40px;
+    }
+
+    .inps2 :nth-child(3){
+        width: 200px;
+        height: 40px;
+    }
+
+    .footerLogo{
+        height: 50px;
+        width: 250px;
+    }
+
+    .bodyText3{
+        width: 290px;
+        height: 60px;
+    }
+
+    .smallDiv1{
+        width: 280px;
+    }
+
+    .smallDiv2{
+        width: 223px;
+    }
+
+    .smallDiv1 :nth-child(2){
+        width: 250px;
+        height: 15px;
+    }
+
+    .company{
+        width: 290px;
+        height: 15px;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .pizza :nth-child(2){
+        height: 300px;
+    }
+
+    .discover :nth-child(2){
+        height: 22px;
+    }
+
+    .discover p{
+        width: 280px;
+    }
+
+    .imageDiv{
+        height: 450px;
+    }
+
+    .imgDiv{
+        height: 250px;
+    }
+    
+    .body1{
+        width: 250px;
+    }
+
+    .bigImg{
+        width: 250px;
+        height: 150px;
+    }
+
+    .bodyText2{
+        height: 60px;
+        top: 30px;
+        left: 20px;
+    }
+
+    .body2{
+        width: 250px;
+    }
+
+    .body2 :nth-child(1){
+        width: 250px;
+        height: 100px;
+    }
+
+    .body2 :nth-child(2){
+        height: 40px;
+        top: 30px;
+        left: 20px;
+    }
+
+    .body3{
+        width: 250px;
+    }
+
+    .body3 :nth-child(1){
+        width: 250px;
+        height: 100px;
+    }
+    
+    .body3 :nth-child(2){
+        height: 30px;
+        top: 30px;
+        left: 20px;
+    }
+
+    .verjinDiv :nth-child(2){
+        height: 20px;
+    }
+}
+
+@media only screen and (max-width:350px){
+    .pizza :nth-child(2){
+        height: 270px;
+    }
+}
